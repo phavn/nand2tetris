@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+
+// takes xxx.asm file as a parameter
+
+Architecture:
+
+    Parser - unpacks each instruction into its underlying fields
+    Code - translates each field into its corresponding binary value
+    SymbolTable - manages the symbol table
+    Main - initialized the i/o files and drives the process
